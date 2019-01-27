@@ -1,9 +1,16 @@
 {% extends 'template.html' %}
 
 {% block title %}
-  Main page
+Trillo &mdash; Your all-in-one booking app
 {% endblock %}
 
 {% block content %}
-  <!-- Your unique page content -->
+{% include 'components/sidebar/sidebar.html' %}
+{% endblock %}
+
+{% block main %}
+{% include 'components/galery/galery.html' %}
+{% include 'components/overview/overview.html' %}
+{% include 'components/detail/detail.html' %}
+{% include 'components/cta/cta.html' %}
 {% endblock %}
