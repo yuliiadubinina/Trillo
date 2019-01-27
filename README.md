@@ -1,22 +1,4 @@
-# Simple Boilerplate-starter
+# Trillo
 
-## Installation
+The site is published at https://yuliiadubinina.github.io/Trillo/dist
 
-### Requirements
-
-- Node.js
-- Gulp
-
-`$ npm i`
-
-## Usage
-
-```
-npm run serve
-```
-
-## Compress images
-
-```
-npm run img
-```
